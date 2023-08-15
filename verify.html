@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Verify</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+		
+		form {
+			margin-top: 50px;
+			text-align: center;
+		}
+		
+		label {
+			font-size: 20px;
+		}
+		
+		input[type="number"] {
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+			width: 50px;
+			font-size: 20px;
+			margin: 0 10px;
+			text-align: center;
+		}
+		
+		button[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+			transition: background-color 0.3s ease;
+			margin-top: 20px;
+		}
+		
+		button[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1>Verify</h1>
+	<form>
+		<p>We have sent the 4-digit code at your mobile</p>
+		<br><br>
+		<button type="button">Resend OTP</button>
+		<br><br><br><br>
+		<label for="otp1">OTP:</label>
+		<input type="number" id="otp1" name="otp1" maxlength="1" required>
+		<input type="number" id="otp2" name="otp2" maxlength="1" required>
+		<input type="number" id="otp3" name="otp3" maxlength="1" required>
+		<input type="number" id="otp4" name="otp4" maxlength="1" required>
+		<br><br><br><br>
+		<button type="submit">Verify Now &emsp;<i class="fa fa-arrow-right"></i></button>
+	</form>
+</body>
+</html>
